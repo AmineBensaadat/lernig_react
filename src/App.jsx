@@ -10,6 +10,7 @@ import UseMemo from "./pages/UseMemo";
 import ReactMemo from "./pages/ReactMemo";
 import UseCallback from "./pages/UseCallback";
 import UseEffect from "./pages/UseEffect";
+import Tables from "./pages/Tables";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/code-splitting" element={<CodeSplitting />} />
         <Route path="/global-store" element={<GlobalStore />} />
         <Route path="/ssr" element={<SSR />} />
+        <Route path="/tables" element={<Tables />} />
         <Route path="/hooks/useMemo" element={<UseMemo />} />
         <Route path="/hooks/ReactMemo" element={<ReactMemo />} />
         <Route path="/hooks/useCallback" element={<UseCallback />} />
