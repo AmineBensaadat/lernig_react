@@ -16,6 +16,7 @@ const links = [
       { path: "/hooks/useEffect", label: "useEffect" },
     ],
   },
+  { path: "/tables", label: "Tables" },
   
 ];
 
