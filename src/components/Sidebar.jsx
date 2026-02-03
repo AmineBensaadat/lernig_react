@@ -17,6 +17,7 @@ const links = [
     ],
   },
   { path: "/tables", label: "Tables" },
+  { path: "/fetch-api", label: "Fetch API" },
   
 ];
 

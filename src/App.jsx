@@ -11,6 +11,7 @@ import ReactMemo from "./pages/ReactMemo";
 import UseCallback from "./pages/UseCallback";
 import UseEffect from "./pages/UseEffect";
 import Tables from "./pages/Tables";
+import FetchAPI from "./pages/FetchAPI";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/hooks/ReactMemo" element={<ReactMemo />} />
         <Route path="/hooks/useCallback" element={<UseCallback />} />
         <Route path="/hooks/useEffect" element={<UseEffect />} />
+        <Route path="/fetch-api" element={<FetchAPI />} />
       </Route>
     </Routes>
   );
