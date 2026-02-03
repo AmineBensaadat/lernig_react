@@ -18,6 +18,8 @@ const links = [
   },
   { path: "/tables", label: "Tables" },
   { path: "/fetch-api", label: "Fetch API" },
+  { path: "/todo-list", label: "Todo List" },
+  { path: "/formulaire", label: "Formulaire" },
   
 ];
 

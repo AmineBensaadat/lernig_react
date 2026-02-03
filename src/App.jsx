@@ -1,17 +1,19 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import Layout from "./Layout";
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Layout from './Layout';
 
-import ChildToParent from "./pages/ChildToParent";
-import ReactPortal from "./pages/ReactPortal";
-import CodeSplitting from "./pages/CodeSplitting";
-import GlobalStore from "./pages/GlobalStore";
-import SSR from "./pages/SSR";
-import UseMemo from "./pages/UseMemo";
-import ReactMemo from "./pages/ReactMemo";
-import UseCallback from "./pages/UseCallback";
-import UseEffect from "./pages/UseEffect";
-import Tables from "./pages/Tables";
-import FetchAPI from "./pages/FetchAPI";
+import ChildToParent from './pages/ChildToParent';
+import ReactPortal from './pages/ReactPortal';
+import CodeSplitting from './pages/CodeSplitting';
+import GlobalStore from './pages/GlobalStore';
+import SSR from './pages/SSR';
+import UseMemo from './pages/UseMemo';
+import ReactMemo from './pages/ReactMemo';
+import UseCallback from './pages/UseCallback';
+import UseEffect from './pages/UseEffect';
+import Tables from './pages/Tables';
+import FetchAPI from './pages/FetchAPI';
+import TodoList from './pages/TodoList';
+import Formulaire from './pages/Formulaire';
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
         <Route path="/hooks/useCallback" element={<UseCallback />} />
         <Route path="/hooks/useEffect" element={<UseEffect />} />
         <Route path="/fetch-api" element={<FetchAPI />} />
+        <Route path="/todo-list" element={<TodoList />} />
+        <Route path="/formulaire" element={<Formulaire />} />
+        <Route path="/404" element={<div>404 Not Found</div>} />
       </Route>
     </Routes>
   );
