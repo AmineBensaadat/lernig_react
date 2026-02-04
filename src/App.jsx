@@ -14,6 +14,8 @@ import Tables from './pages/Tables';
 import FetchAPI from './pages/FetchAPI';
 import TodoList from './pages/TodoList';
 import Formulaire from './pages/Formulaire';
+import Tabs from './pages/Tabs';
+import ConteurPage from './pages/ConteurPage';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
         <Route path="/fetch-api" element={<FetchAPI />} />
         <Route path="/todo-list" element={<TodoList />} />
         <Route path="/formulaire" element={<Formulaire />} />
+        <Route path="/tabs" element={<Tabs />} />
+        <Route path="conteur" element={<ConteurPage />} />
         <Route path="/404" element={<div>404 Not Found</div>} />
       </Route>
     </Routes>
