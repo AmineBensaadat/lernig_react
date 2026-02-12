@@ -16,6 +16,7 @@ import TodoList from './pages/TodoList';
 import Formulaire from './pages/Formulaire';
 import Tabs from './pages/Tabs';
 import ConteurPage from './pages/ConteurPage';
+import Films from './pages/Films';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/formulaire" element={<Formulaire />} />
         <Route path="/tabs" element={<Tabs />} />
         <Route path="conteur" element={<ConteurPage />} />
+        <Route path="/films" element={<Films />} />
         <Route path="/404" element={<div>404 Not Found</div>} />
       </Route>
     </Routes>

@@ -20,13 +20,7 @@ const links = [
   { path: '/fetch-api', label: 'Fetch API' },
   { path: '/todo-list', label: 'Todo List' },
   { path: '/formulaire', label: 'Formulaire' },
-  { path: '/tabs', label: 'Tabs' },
-  { path: '/conteur', label: 'Conteur' },
-];
-
-function Sidebar() {
-  const [openHooks, setOpenHooks] = useState(false);
-
+{ path: '/tabs', label: 'Tabs' }, { path: '/conteur', label: 'Conteur' }, { path: '/films', label: 'Films' }, ]; function Sidebar() { const [openHooks, setOpenHooks] = useState(false);
   return (
     <aside
       style={{
